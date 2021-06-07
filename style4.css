@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(./images/background.jpg);
+}
+
+.file {
+  width: 500px;
+  height: 700px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px auto;
+  margin-top: 200px;
+}
+
+input {
+}
+
+img {
+  width: 150px;
+  margin-left: 34%;
+  margin-top: -60px;
+  border-radius: 50%;
+}
+
+h2 {
+  color: #1c8adb;
+  text-align: center;
+  margin-top: 20px;
+  background-color: white;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.text {
+  border: 1px solid rgb(165, 165, 165);
+  width: 90%;
+  margin: 20px auto;
+  margin-left: 20px;
+  height: 50px;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 30px;
+  outline: none;
+  font-size: 30px;
+}
+
+.password {
+  border: 1px solid rgb(165, 165, 165);
+  width: 90%;
+  margin: 20px auto;
+  margin-left: 20px;
+  height: 50px;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 10px;
+  outline: none;
+  font-size: 30px;
+}
+
+::placeholder {
+  width: 100%;
+  font-size: 20px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+p {
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.checkbox {
+  background-color: white;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+}
+
+span {
+  background-color: white;
+}
+
+button {
+  background-color: #1c8adb;
+  color: white;
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+h4 {
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.p2 {
+  margin-top: 20px;
+}
+
+a {
+  background-color: white;
+  color: rgb(64, 64, 202);
+  text-decoration: none;
+}

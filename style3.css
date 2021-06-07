@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  height: 1000px;
+}
+
+/* start header */
+
+.header {
+  background-color: black;
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+
+.header img {
+  width: 100%;
+  height: 450px;
+}
+
+.header .logo {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 100px;
+  top: 20px;
+  border-radius: 50%;
+}
+
+.nav {
+  position: relative;
+}
+
+ul {
+  position: absolute;
+  top: 30px;
+  left: 55%;
+}
+
+li {
+  color: white;
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 40px;
+}
+
+ul li a {
+  color: rgb(172, 172, 172);
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: white;
+}
+
+ul li a.active {
+  color: white;
+}
+
+.header .login {
+  position: absolute;
+  left: 90%;
+  top: 32px;
+  width: 70px;
+  background: none;
+  color: white;
+  padding: 3px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.header .login a {
+  text-decoration: none;
+  color: white;
+}
+
+.header .login a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 2px;
+  height: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+svg {
+  background-color: white;
+  position: relative;
+  top: 100px;
+  width: 1788px;
+  margin: -269px;
+  z-index: 999;
+}
+
+/* end header */
+
+.section {
+  background-color: #252f31;
+  top: 1000px;
+  width: 100%;
+  height: 900px;
+}
+
+.section1 {
+  position: absolute;
+  top: 120%;
+  left: 60%;
+}
+
+.form {
+  display: block;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #d1d6da;
+  margin: 10px 0;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.form input[type="text"] {
+  background-color: #4b5557;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  width: 120%;
+  margin-bottom: 10px;
+}
+
+textarea {
+  background-color: #4b5557;
+  color: #fff;
+  padding: 1px;
+  border: 0;
+  width: 120%;
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+.form input[type="submit"] {
+  background-color: #191e22;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 10px;
+}
+
+.info {
+  position: absolute;
+  left: -260%;
+  color: white;
+}
+
+.pmo {
+  width: 200px;
+  color: #6a6e71;
+}
+
+strong {
+  color: write;
+}
+
+.pmo2 {
+  margin-top: 10px;
+}
+
+.spmo {
+  color: #6a6e71;
+}
